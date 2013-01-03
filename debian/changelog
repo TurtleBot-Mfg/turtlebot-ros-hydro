@@ -1,3 +1,9 @@
+turtlebot-ros-groovy (0.0.3) precise; urgency=low
+
+  * Init rosdep without internet!
+
+ -- I Heart Engineering <code@iheartengineering.com>  Thu, 03 Jan 2013 05:30:53 -0500
+
 turtlebot-ros-groovy (0.0.2ubuntu3) precise; urgency=low
 
   * partially fixing rosdep update if network is avail when package installed
