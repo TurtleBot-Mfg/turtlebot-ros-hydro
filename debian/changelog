@@ -1,3 +1,9 @@
+turtlebot-ros-groovy (0.0.2ubuntu1) precise; urgency=low
+
+  * Fixed launch file
+
+ -- I Heart Engineering <code@iheartengineering.com>  Wed, 02 Jan 2013 09:51:44 -0500
+
 turtlebot-ros-groovy (0.0.2) precise; urgency=low
 
   * UNRELEASED
