@@ -1,3 +1,9 @@
+turtlebot-ros-groovy (0.0.2ubuntu2) precise; urgency=low
+
+  * update rosdep for user ros
+
+ -- I Heart Engineering <code@iheartengineering.com>  Wed, 02 Jan 2013 22:14:02 -0500
+
 turtlebot-ros-groovy (0.0.2ubuntu1) precise; urgency=low
 
   * Fixed launch file

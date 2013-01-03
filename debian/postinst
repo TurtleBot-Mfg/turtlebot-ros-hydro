@@ -8,7 +8,7 @@ case "$1" in
             ln -s /etc/ros-groovy /etc/ros
         fi
         if getent passwd ros >/dev/null; then
-            setuidgid ros source /etc/ros/setup.bash && rosdep update
+            setuidgid ros rosdep update
         fi
         ;;
 
