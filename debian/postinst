@@ -8,7 +8,7 @@ case "$1" in
             ln -s /etc/ros-groovy /etc/ros
         fi
         if getent passwd ros >/dev/null; then
-            setuidgid ros ROS_HOME=/var/lib/ros/.ros rosdep update
+            setuidgid ros env ROS_HOME=/var/lib/ros/.ros rosdep update
         fi
         if [ -e "/var/lib/ros" ]; then
 	    chown -R ros:ros /var/lib/ros

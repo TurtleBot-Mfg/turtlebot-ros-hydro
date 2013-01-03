@@ -1,3 +1,15 @@
+turtlebot-ros-groovy (0.0.3ubuntu2) precise; urgency=low
+
+  * 
+
+ -- I Heart Engineering <code@iheartengineering.com>  Thu, 03 Jan 2013 06:48:26 -0500
+
+turtlebot-ros-groovy (0.0.3ubuntu1) precise; urgency=low
+
+  * Set ROS_HOME for rosdep update with internet access
+
+ -- I Heart Engineering <code@iheartengineering.com>  Thu, 03 Jan 2013 06:03:44 -0500
+
 turtlebot-ros-groovy (0.0.3) precise; urgency=low
 
   * Init rosdep without internet!
