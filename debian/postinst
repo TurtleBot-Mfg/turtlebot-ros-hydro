@@ -10,6 +10,11 @@ case "$1" in
         if getent passwd ros >/dev/null; then
             setuidgid ros rosdep update
         fi
+        if [ -e "/var/lib/ros" ]; then
+	    chown -R ros:ros /var/lib/ros
+            chmod 2775 /var/lib/ros
+	fi
+
         ;;
 
     *)

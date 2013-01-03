@@ -1,3 +1,9 @@
+turtlebot-ros-groovy (0.0.2ubuntu3) precise; urgency=low
+
+  * partially fixing rosdep update if network is avail when package installed
+
+ -- I Heart Engineering <code@iheartengineering.com>  Thu, 03 Jan 2013 04:23:06 -0500
+
 turtlebot-ros-groovy (0.0.2ubuntu2) precise; urgency=low
 
   * update rosdep for user ros

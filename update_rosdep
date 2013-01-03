@@ -1,0 +1,13 @@
+#!/bin/bash
+cd ${0%/*}
+SCRIPT_DIR=`pwd`
+ROS_USER_DIR="/var/lib/ros/"
+
+if [ -e "$SCRIPT_DIR/root/$ROS_USER_DIR/.ros" ]; then
+  rm -r $SCRIPT_DIR/root/$ROS_USER_DIR/.ros
+fi
+
+mkdir -p $SCRIPT_DIR/root/$ROS_USER_DIR/.ros
+
+export ROS_HOME="$SCRIPT_DIR/root/$ROS_USER_DIR/.ros"
+rosdep update
