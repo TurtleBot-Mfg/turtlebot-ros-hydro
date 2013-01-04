@@ -1,3 +1,9 @@
+turtlebot-ros-groovy (0.0.3ubuntu3) precise; urgency=low
+
+  * fixing rosdep update for installs with internet connectivity
+
+ -- I Heart Engineering <code@iheartengineering.com>  Thu, 03 Jan 2013 06:49:18 -0500
+
 turtlebot-ros-groovy (0.0.3ubuntu2) precise; urgency=low
 
   * 
