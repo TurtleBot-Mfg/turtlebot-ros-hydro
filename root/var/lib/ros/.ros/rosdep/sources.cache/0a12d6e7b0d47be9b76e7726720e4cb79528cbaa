@@ -181,6 +181,7 @@ gcc-avr: {arch: avr-gcc, debian: gcc-avr, fedora: avr-gcc, gentoo: cross-avr/gcc
 gccxml: {debian: gccxml, fedora: gccxml, ubuntu: gccxml}
 gforth: {arch: gforth, debian: gforth, fedora: gforth, gentoo: gforth, macports: gforth,
   ubuntu: gforth}
+gfortran: {ubuntu: gfortran}
 gifsicle: {debian: gifsicle, ubuntu: gifsicle}
 git: {arch: git, debian: git-core, fedora: git, freebsd: git, gentoo: dev-vcs/git,
   macports: git-core, opensuse: git-core, ubuntu: git-core}
@@ -263,6 +264,7 @@ libdevil-dev: {arch: devil, debian: libdevil-dev, fedora: DevIL-devel, ubuntu: l
 libdrm-dev: {debian: libdrm-dev, ubuntu: libdrm-dev}
 libexpat1-dev: {debian: libexpat1-dev, ubuntu: libexpat1-dev}
 libfftw3: {debian: libfftw3-3 libfftw3-dev, ubuntu: libfftw3-3 libfftw3-dev}
+libfreenect-dev: {debian: libfreenect-dev, ubuntu: libfreenect-dev}
 libftdi-dev: {debian: libftdi-dev, ubuntu: libftdi-dev}
 libftgl-dev: {arch: ftgl, debian: libftgl-dev, fedora: ftgl-devel, ubuntu: libftgl-dev}
 libgfortran3: {debian: libgfortran3, ubuntu: libgfortran3}
@@ -321,6 +323,7 @@ libogg: {arch: libogg, debian: libogg-dev, fedora: libogg-devel, gentoo: media-l
   macports: libogg, ubuntu: libogg-dev}
 libogre-dev: {arch: ogre, debian: libogre-dev, fedora: ogre-devel, gentoo: dev-games/ogre,
   macports: ogre, opensuse: ogre-devel, rhel: ogre-devel, ubuntu: libogre-dev}
+libois-dev: {debian: libois-dev, ubuntu: libois-dev}
 libopenni-dev: {arch: openni, fedora: openni-devel, ubuntu: libopenni-dev}
 libopenni-nite-dev: {arch: nite, fedora: openni-nite-devel, ubuntu: libopenni-nite-dev}
 libopenni-sensor-primesense-dev: {arch: primesense-sensor, fedora: openni-primesense,
@@ -461,6 +464,7 @@ libx11-dev: {arch: libx11, debian: libx11-dev, fedora: libX11-devel, gentoo: x11
 libxaw: {arch: libxaw, debian: libxaw7-dev, fedora: libXaw-devel, freebsd: libXaw,
   gentoo: x11-libs/libXaw, macports: xorg-libXaw, opensuse: xorg-x11-devel, rhel: libXaw-devel,
   ubuntu: libxaw7-dev}
+libxenomai-dev: {ubuntu: libxenomai-dev}
 libxext: {arch: libxext, debian: libxext-dev, fedora: libXext-devel, freebsd: libXext,
   gentoo: x11-libs/libXext, macports: xorg-libXext, opensuse: xorg-x11-libXext-devel,
   rhel: libXext-devel, ubuntu: libxext-dev}
@@ -680,8 +684,14 @@ yaml: {arch: libyaml, debian: libyaml-dev, fedora: libyaml-devel, gentoo: libyam
 yaml-cpp:
   arch: yaml-cpp
   debian:
-    apt: {sid: libyaml-cpp-dev, wheezy: libyaml-cpp-dev}
-    source: {md5sum: f7fb81fd4a2fbd5022daa7686e816359, uri: 'https://kforge.ros.org/rosrelease/viewvc/sourcedeps/yaml-cpp/yaml-cpp-0.2.5.rdmanifest'}
+    sid:
+      apt:
+        packages: [libyaml-cpp-dev]
+    squeeze:
+      source: {md5sum: f7fb81fd4a2fbd5022daa7686e816359, uri: 'https://kforge.ros.org/rosrelease/viewvc/sourcedeps/yaml-cpp/yaml-cpp-0.2.5.rdmanifest'}
+    wheezy:
+      apt:
+        packages: [libyaml-cpp-dev]
   fedora: yaml-cpp-devel
   gentoo: yaml-cpp
   rhel: yaml-cpp-devel

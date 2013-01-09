@@ -2488,6 +2488,36 @@ opencv_candidate:
     quantal:
       apt:
         packages: [ros-groovy-opencv-candidate]
+openni_camera:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/openni_camera]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-openni-camera]
+    precise:
+      apt:
+        packages: [ros-groovy-openni-camera]
+    quantal:
+      apt:
+        packages: [ros-groovy-openni-camera]
+openni_launch:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/openni_launch]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-openni-launch]
+    precise:
+      apt:
+        packages: [ros-groovy-openni-launch]
+    quantal:
+      apt:
+        packages: [ros-groovy-openni-launch]
 orocos_kdl:
   _is_ros: true
   osx:
@@ -4393,6 +4423,21 @@ vision_opencv:
     quantal:
       apt:
         packages: [ros-groovy-vision-opencv]
+visp:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/visp]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-visp]
+    precise:
+      apt:
+        packages: [ros-groovy-visp]
+    quantal:
+      apt:
+        packages: [ros-groovy-visp]
 visualization_msgs:
   _is_ros: true
   osx:

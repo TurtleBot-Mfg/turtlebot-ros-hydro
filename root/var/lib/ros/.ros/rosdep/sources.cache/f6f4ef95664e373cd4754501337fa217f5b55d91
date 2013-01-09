@@ -6,6 +6,7 @@ python: {arch: python2, cygwin: python, debian: python-dev, fedora: python-devel
   freebsd: python, gentoo: python, macports: python26 python_select, opensuse: python-devel,
   rhel: python-devel, ubuntu: python-dev}
 python-argparse:
+  debian: python-argparse
   fedora: python-argparse
   ubuntu:
     lucid: python-argparse
@@ -21,9 +22,12 @@ python-beautifulsoup: {ubuntu: python-beautifulsoup}
 python-bluez: {arch: python-pybluez, debian: python-bluez, fedora: pybluez, gentoo: dev-python/pybluez,
   rhel: python-bluez, ubuntu: python-bluez}
 python-catkin-pkg:
+  debian:
+    pip:
+      packages: [catkin-pkg]
   fedora:
     pip:
-      packages: [catkin_pkg]
+      packages: [catkin-pkg]
   osx:
     pip:
       packages: [catkin-pkg]
@@ -35,7 +39,7 @@ python-cwiid: {arch: cwiid, debian: python-cwiid, fedora: cwiid, gentoo: app-mis
   rhel: cwiid, ubuntu: python-cwiid}
 python-deap-pip:
   ubuntu: {pip: deap}
-python-empy: {fedora: python-empy, ubuntu: python-empy}
+python-empy: {debian: python-empy, fedora: python-empy, ubuntu: python-empy}
 python-gst: {ubuntu: python-gst0.10}
 python-gtk2: {arch: pygtk, debian: python-gtk2, fedora: pygtk2, freebsd: py-gtk2,
   gentoo: =dev-python/pygtk-2*, macports: py26-gtk, opensuse: python-gtk, rhel: pygtk2,
@@ -51,7 +55,7 @@ python-matplotlib: {arch: python2-matplotlib, debian: python-matplotlib, fedora:
   opensuse: python-matplotlib, rhel: python-matplotlib, ubuntu: python-matplotlib}
 python-mechanize: {ubuntu: python-mechanize}
 python-mock: {ubuntu: python-mock}
-python-nose: {arch: python2-nose, fedora: python-nose, ubuntu: python-nose}
+python-nose: {arch: python2-nose, debian: python-nose, fedora: python-nose, ubuntu: python-nose}
 python-numpy: {arch: python2-numpy, debian: python-numpy, fedora: numpy, freebsd: py-numpy,
   gentoo: dev-python/numpy, macports: py26-numpy, opensuse: python-numpy, rhel: numpy,
   ubuntu: python-numpy}
@@ -69,6 +73,7 @@ python-pydot:
     pip:
       packages: [pydot]
   ubuntu: python-pydot
+python-pygame: {ubuntu: python-pygame}
 python-pygraphviz: {ubuntu: python-pygraphviz}
 python-pymodbus:
   ubuntu: {precise: python-pymodbus}
@@ -101,11 +106,19 @@ python-qwt5-qt4: {ubuntu: python-qwt5-qt4}
 python-rdflib: {ubuntu: python-rdflib}
 python-redis: {ubuntu: python-redis}
 python-rosdep:
+  debian:
+    pip:
+      packages: [rosdep]
   osx:
     pip:
       packages: [rosdep]
   ubuntu: python-rosdep
-python-rospkg: {fedora: python-rospkg, ubuntu: python-rospkg}
+python-rospkg:
+  debian:
+    pip:
+      packages: [rospkg]
+  fedora: python-rospkg
+  ubuntu: python-rospkg
 python-scapy: {ubuntu: python-scapy}
 python-scipy: {arch: python2-scipy, debian: python-scipy, fedora: scipy, freebsd: py-scipy,
   gentoo: dev-libs/scipy, macports: py26-scipy, opensuse: python-scipy, ubuntu: python-scipy}
