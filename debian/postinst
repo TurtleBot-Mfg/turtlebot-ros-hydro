@@ -17,7 +17,6 @@ case "$1" in
                 mkdir -p /etc/skel/.ros
             fi
             cp -r /var/lib/ros/.ros/rosdep /etc/skel/.ros/.
-            cp /var/lib/ros/.ros/rospack_cache /etc/skel/.ros/.
         fi
 
         ;;

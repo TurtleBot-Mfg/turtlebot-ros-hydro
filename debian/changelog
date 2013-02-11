@@ -1,3 +1,9 @@
+turtlebot-ros-groovy (0.0.5) precise; urgency=low
+
+  * Added ~/.ros/rosdep to /etc/skel && rebuilt cache
+
+ -- I Heart Engineering <code@iheartengineering.com>  Mon, 11 Feb 2013 01:15:57 -0500
+
 turtlebot-ros-groovy (0.0.4) precise; urgency=low
 
   * fixing rosdep update for installs with internet connectivity
