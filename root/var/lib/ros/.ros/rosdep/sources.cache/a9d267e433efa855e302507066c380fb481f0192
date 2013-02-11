@@ -28,6 +28,21 @@ actionlib_msgs:
     quantal:
       apt:
         packages: [ros-groovy-actionlib-msgs]
+actionlibjs:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/actionlibjs]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-actionlibjs]
+    precise:
+      apt:
+        packages: [ros-groovy-actionlibjs]
+    quantal:
+      apt:
+        packages: [ros-groovy-actionlibjs]
 angles:
   _is_ros: true
   osx:
@@ -43,6 +58,21 @@ angles:
     quantal:
       apt:
         packages: [ros-groovy-angles]
+ar_track_alvar:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/ar_track_alvar]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-ar-track-alvar]
+    precise:
+      apt:
+        packages: [ros-groovy-ar-track-alvar]
+    quantal:
+      apt:
+        packages: [ros-groovy-ar-track-alvar]
 bond:
   _is_ros: true
   osx:
@@ -223,6 +253,21 @@ catkin:
     quantal:
       apt:
         packages: [ros-groovy-catkin]
+chatter_concert:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/rocon_tutorials]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-chatter-concert]
+    precise:
+      apt:
+        packages: [ros-groovy-chatter-concert]
+    quantal:
+      apt:
+        packages: [ros-groovy-chatter-concert]
 class_loader:
   _is_ros: true
   osx:
@@ -238,6 +283,21 @@ class_loader:
     quantal:
       apt:
         packages: [ros-groovy-class-loader]
+cmd_vel_mux:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/yujin_ocs]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-cmd-vel-mux]
+    precise:
+      apt:
+        packages: [ros-groovy-cmd-vel-mux]
+    quantal:
+      apt:
+        packages: [ros-groovy-cmd-vel-mux]
 collada_parser:
   _is_ros: true
   osx:
@@ -313,6 +373,51 @@ compressed_image_transport:
     quantal:
       apt:
         packages: [ros-groovy-compressed-image-transport]
+concert_conductor:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/rocon_concert]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-concert-conductor]
+    precise:
+      apt:
+        packages: [ros-groovy-concert-conductor]
+    quantal:
+      apt:
+        packages: [ros-groovy-concert-conductor]
+concert_master:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/rocon_concert]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-concert-master]
+    precise:
+      apt:
+        packages: [ros-groovy-concert-master]
+    quantal:
+      apt:
+        packages: [ros-groovy-concert-master]
+concert_msgs:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/rocon_msgs]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-concert-msgs]
+    precise:
+      apt:
+        packages: [ros-groovy-concert-msgs]
+    quantal:
+      apt:
+        packages: [ros-groovy-concert-msgs]
 console_bridge:
   _is_ros: true
   osx:
@@ -1318,6 +1423,21 @@ flirtlib:
     quantal:
       apt:
         packages: [ros-groovy-flirtlib]
+gateway_msgs:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/rocon_msgs]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-gateway-msgs]
+    precise:
+      apt:
+        packages: [ros-groovy-gateway-msgs]
+    quantal:
+      apt:
+        packages: [ros-groovy-gateway-msgs]
 gencpp:
   _is_ros: true
   osx:
@@ -1693,6 +1813,216 @@ kdl_parser:
     quantal:
       apt:
         packages: [ros-groovy-kdl-parser]
+keyboardteleopjs:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/keyboardteleopjs]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-keyboardteleopjs]
+    precise:
+      apt:
+        packages: [ros-groovy-keyboardteleopjs]
+    quantal:
+      apt:
+        packages: [ros-groovy-keyboardteleopjs]
+kobuki:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/kobuki]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-kobuki]
+    precise:
+      apt:
+        packages: [ros-groovy-kobuki]
+    quantal:
+      apt:
+        packages: [ros-groovy-kobuki]
+kobuki_arm:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/kobuki]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-kobuki-arm]
+    precise:
+      apt:
+        packages: [ros-groovy-kobuki-arm]
+    quantal:
+      apt:
+        packages: [ros-groovy-kobuki-arm]
+kobuki_auto_docking:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/kobuki]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-kobuki-auto-docking]
+    precise:
+      apt:
+        packages: [ros-groovy-kobuki-auto-docking]
+    quantal:
+      apt:
+        packages: [ros-groovy-kobuki-auto-docking]
+kobuki_bumper2pc:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/kobuki]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-kobuki-bumper2pc]
+    precise:
+      apt:
+        packages: [ros-groovy-kobuki-bumper2pc]
+    quantal:
+      apt:
+        packages: [ros-groovy-kobuki-bumper2pc]
+kobuki_controller_tutorial:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/kobuki]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-kobuki-controller-tutorial]
+    precise:
+      apt:
+        packages: [ros-groovy-kobuki-controller-tutorial]
+    quantal:
+      apt:
+        packages: [ros-groovy-kobuki-controller-tutorial]
+kobuki_driver:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/kobuki]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-kobuki-driver]
+    precise:
+      apt:
+        packages: [ros-groovy-kobuki-driver]
+    quantal:
+      apt:
+        packages: [ros-groovy-kobuki-driver]
+kobuki_ftdi:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/kobuki]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-kobuki-ftdi]
+    precise:
+      apt:
+        packages: [ros-groovy-kobuki-ftdi]
+    quantal:
+      apt:
+        packages: [ros-groovy-kobuki-ftdi]
+kobuki_keyop:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/kobuki]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-kobuki-keyop]
+    precise:
+      apt:
+        packages: [ros-groovy-kobuki-keyop]
+    quantal:
+      apt:
+        packages: [ros-groovy-kobuki-keyop]
+kobuki_msgs:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/kobuki_msgs]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-kobuki-msgs]
+    precise:
+      apt:
+        packages: [ros-groovy-kobuki-msgs]
+    quantal:
+      apt:
+        packages: [ros-groovy-kobuki-msgs]
+kobuki_node:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/kobuki]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-kobuki-node]
+    precise:
+      apt:
+        packages: [ros-groovy-kobuki-node]
+    quantal:
+      apt:
+        packages: [ros-groovy-kobuki-node]
+kobuki_safety_controller:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/kobuki]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-kobuki-safety-controller]
+    precise:
+      apt:
+        packages: [ros-groovy-kobuki-safety-controller]
+    quantal:
+      apt:
+        packages: [ros-groovy-kobuki-safety-controller]
+kobuki_testsuite:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/kobuki]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-kobuki-testsuite]
+    precise:
+      apt:
+        packages: [ros-groovy-kobuki-testsuite]
+    quantal:
+      apt:
+        packages: [ros-groovy-kobuki-testsuite]
+korg_nanokontrol:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/korg_nanokontrol]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-korg-nanokontrol]
+    precise:
+      apt:
+        packages: [ros-groovy-korg-nanokontrol]
+    quantal:
+      apt:
+        packages: [ros-groovy-korg-nanokontrol]
 langs:
   _is_ros: true
   osx:
@@ -1783,6 +2113,36 @@ libg2o:
     quantal:
       apt:
         packages: [ros-groovy-libg2o]
+libsegwayrmp:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/libsegwayrmp]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-libsegwayrmp]
+    precise:
+      apt:
+        packages: [ros-groovy-libsegwayrmp]
+    quantal:
+      apt:
+        packages: [ros-groovy-libsegwayrmp]
+libsiftfast:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/libsiftfast]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-libsiftfast]
+    precise:
+      apt:
+        packages: [ros-groovy-libsiftfast]
+    quantal:
+      apt:
+        packages: [ros-groovy-libsiftfast]
 manipulation_msgs:
   _is_ros: true
   osx:
@@ -1798,6 +2158,21 @@ manipulation_msgs:
     quantal:
       apt:
         packages: [ros-groovy-manipulation-msgs]
+map2djs:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/map2djs]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-map2djs]
+    precise:
+      apt:
+        packages: [ros-groovy-map2djs]
+    quantal:
+      apt:
+        packages: [ros-groovy-map2djs]
 message_filters:
   _is_ros: true
   osx:
@@ -1843,6 +2218,21 @@ message_runtime:
     quantal:
       apt:
         packages: [ros-groovy-message-runtime]
+mjpegcanvasjs:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/mjpegcanvasjs]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-mjpegcanvasjs]
+    precise:
+      apt:
+        packages: [ros-groovy-mjpegcanvasjs]
+    quantal:
+      apt:
+        packages: [ros-groovy-mjpegcanvasjs]
 mk:
   _is_ros: true
   osx:
@@ -2188,6 +2578,21 @@ moveit_source_build_deps:
     quantal:
       apt:
         packages: [ros-groovy-moveit-source-build-deps]
+nav2djs:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/nav2djs]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-nav2djs]
+    precise:
+      apt:
+        packages: [ros-groovy-nav2djs]
+    quantal:
+      apt:
+        packages: [ros-groovy-nav2djs]
 nav_msgs:
   _is_ros: true
   osx:
@@ -2323,6 +2728,21 @@ object_recognition_reconstruction:
     quantal:
       apt:
         packages: [ros-groovy-object-recognition-reconstruction]
+object_recognition_renderer:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/object_recognition_renderer]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-object-recognition-renderer]
+    precise:
+      apt:
+        packages: [ros-groovy-object-recognition-renderer]
+    quantal:
+      apt:
+        packages: [ros-groovy-object-recognition-renderer]
 object_recognition_ros:
   _is_ros: true
   osx:
@@ -2638,6 +3058,21 @@ polled_camera:
     quantal:
       apt:
         packages: [ros-groovy-polled-camera]
+pr2_controllers_msgs:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/pr2_controllers_msgs]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-pr2-controllers-msgs]
+    precise:
+      apt:
+        packages: [ros-groovy-pr2-controllers-msgs]
+    quantal:
+      apt:
+        packages: [ros-groovy-pr2-controllers-msgs]
 pr2_mechanism_msgs:
   _is_ros: true
   osx:
@@ -2683,6 +3118,21 @@ pr2_moveit_plugins:
     quantal:
       apt:
         packages: [ros-groovy-pr2-moveit-plugins]
+pr2_moveit_tutorials:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/moveit_pr2]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-pr2-moveit-tutorials]
+    precise:
+      apt:
+        packages: [ros-groovy-pr2-moveit-tutorials]
+    quantal:
+      apt:
+        packages: [ros-groovy-pr2-moveit-tutorials]
 ps3joy:
   _is_ros: true
   osx:
@@ -2818,6 +3268,21 @@ qt_gui_py_common:
     quantal:
       apt:
         packages: [ros-groovy-qt-gui-py-common]
+rail_maps:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/rail_maps]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-rail-maps]
+    precise:
+      apt:
+        packages: [ros-groovy-rail-maps]
+    quantal:
+      apt:
+        packages: [ros-groovy-rail-maps]
 random_numbers:
   _is_ros: true
   osx:
@@ -2833,6 +3298,36 @@ random_numbers:
     quantal:
       apt:
         packages: [ros-groovy-random-numbers]
+redis:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/rocon_multimaster]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-redis]
+    precise:
+      apt:
+        packages: [ros-groovy-redis]
+    quantal:
+      apt:
+        packages: [ros-groovy-redis]
+reflexxes_type2:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/reflexxes_type2]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-reflexxes-type2]
+    precise:
+      apt:
+        packages: [ros-groovy-reflexxes-type2]
+    quantal:
+      apt:
+        packages: [ros-groovy-reflexxes-type2]
 resource_retriever:
   _is_ros: true
   osx:
@@ -2863,6 +3358,21 @@ robot_model:
     quantal:
       apt:
         packages: [ros-groovy-robot-model]
+robot_pose_publisher:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/robot_pose_publisher]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-robot-pose-publisher]
+    precise:
+      apt:
+        packages: [ros-groovy-robot-pose-publisher]
+    quantal:
+      apt:
+        packages: [ros-groovy-robot-pose-publisher]
 robot_state_publisher:
   _is_ros: true
   osx:
@@ -2878,6 +3388,321 @@ robot_state_publisher:
     quantal:
       apt:
         packages: [ros-groovy-robot-state-publisher]
+rocon:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/rocon_tutorials]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-rocon]
+    precise:
+      apt:
+        packages: [ros-groovy-rocon]
+    quantal:
+      apt:
+        packages: [ros-groovy-rocon]
+rocon_app_manager:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/rocon_app_platform]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-rocon-app-manager]
+    precise:
+      apt:
+        packages: [ros-groovy-rocon-app-manager]
+    quantal:
+      apt:
+        packages: [ros-groovy-rocon-app-manager]
+rocon_app_manager_msgs:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/rocon_msgs]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-rocon-app-manager-msgs]
+    precise:
+      apt:
+        packages: [ros-groovy-rocon-app-manager-msgs]
+    quantal:
+      apt:
+        packages: [ros-groovy-rocon-app-manager-msgs]
+rocon_app_manager_www:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/rocon_app_platform]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-rocon-app-manager-www]
+    precise:
+      apt:
+        packages: [ros-groovy-rocon-app-manager-www]
+    quantal:
+      apt:
+        packages: [ros-groovy-rocon-app-manager-www]
+rocon_app_platform:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/rocon_app_platform]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-rocon-app-platform]
+    precise:
+      apt:
+        packages: [ros-groovy-rocon-app-platform]
+    quantal:
+      apt:
+        packages: [ros-groovy-rocon-app-platform]
+rocon_apps:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/rocon_app_platform]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-rocon-apps]
+    precise:
+      apt:
+        packages: [ros-groovy-rocon-apps]
+    quantal:
+      apt:
+        packages: [ros-groovy-rocon-apps]
+rocon_concert:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/rocon_concert]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-rocon-concert]
+    precise:
+      apt:
+        packages: [ros-groovy-rocon-concert]
+    quantal:
+      apt:
+        packages: [ros-groovy-rocon-concert]
+rocon_demo_msgs:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/rocon_msgs]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-rocon-demo-msgs]
+    precise:
+      apt:
+        packages: [ros-groovy-rocon-demo-msgs]
+    quantal:
+      apt:
+        packages: [ros-groovy-rocon-demo-msgs]
+rocon_gateway:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/rocon_multimaster]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-rocon-gateway]
+    precise:
+      apt:
+        packages: [ros-groovy-rocon-gateway]
+    quantal:
+      apt:
+        packages: [ros-groovy-rocon-gateway]
+rocon_gateway_graph:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/rocon_rqt_plugins]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-rocon-gateway-graph]
+    precise:
+      apt:
+        packages: [ros-groovy-rocon-gateway-graph]
+    quantal:
+      apt:
+        packages: [ros-groovy-rocon-gateway-graph]
+rocon_gateway_tests:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/rocon_multimaster]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-rocon-gateway-tests]
+    precise:
+      apt:
+        packages: [ros-groovy-rocon-gateway-tests]
+    quantal:
+      apt:
+        packages: [ros-groovy-rocon-gateway-tests]
+rocon_gateway_tutorials:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/rocon_tutorials]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-rocon-gateway-tutorials]
+    precise:
+      apt:
+        packages: [ros-groovy-rocon-gateway-tutorials]
+    quantal:
+      apt:
+        packages: [ros-groovy-rocon-gateway-tutorials]
+rocon_hub:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/rocon_multimaster]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-rocon-hub]
+    precise:
+      apt:
+        packages: [ros-groovy-rocon-hub]
+    quantal:
+      apt:
+        packages: [ros-groovy-rocon-hub]
+rocon_hub_client:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/rocon_multimaster]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-rocon-hub-client]
+    precise:
+      apt:
+        packages: [ros-groovy-rocon-hub-client]
+    quantal:
+      apt:
+        packages: [ros-groovy-rocon-hub-client]
+rocon_msgs:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/rocon_msgs]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-rocon-msgs]
+    precise:
+      apt:
+        packages: [ros-groovy-rocon-msgs]
+    quantal:
+      apt:
+        packages: [ros-groovy-rocon-msgs]
+rocon_multimaster:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/rocon_multimaster]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-rocon-multimaster]
+    precise:
+      apt:
+        packages: [ros-groovy-rocon-multimaster]
+    quantal:
+      apt:
+        packages: [ros-groovy-rocon-multimaster]
+rocon_orchestra:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/rocon_concert]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-rocon-orchestra]
+    precise:
+      apt:
+        packages: [ros-groovy-rocon-orchestra]
+    quantal:
+      apt:
+        packages: [ros-groovy-rocon-orchestra]
+rocon_rqt_plugins:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/rocon_rqt_plugins]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-rocon-rqt-plugins]
+    precise:
+      apt:
+        packages: [ros-groovy-rocon-rqt-plugins]
+    quantal:
+      apt:
+        packages: [ros-groovy-rocon-rqt-plugins]
+rocon_tutorials:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/rocon_tutorials]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-rocon-tutorials]
+    precise:
+      apt:
+        packages: [ros-groovy-rocon-tutorials]
+    quantal:
+      apt:
+        packages: [ros-groovy-rocon-tutorials]
+rocon_unreliable_experiments:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/rocon_multimaster]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-rocon-unreliable-experiments]
+    precise:
+      apt:
+        packages: [ros-groovy-rocon-unreliable-experiments]
+    quantal:
+      apt:
+        packages: [ros-groovy-rocon-unreliable-experiments]
+rocon_utilities:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/rocon_multimaster]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-rocon-utilities]
+    precise:
+      apt:
+        packages: [ros-groovy-rocon-utilities]
+    quantal:
+      apt:
+        packages: [ros-groovy-rocon-utilities]
 ros:
   _is_ros: true
   osx:
@@ -2923,6 +3748,21 @@ ros_tutorials:
     quantal:
       apt:
         packages: [ros-groovy-ros-tutorials]
+rosauth:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/rosauth]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-rosauth]
+    precise:
+      apt:
+        packages: [ros-groovy-rosauth]
+    quantal:
+      apt:
+        packages: [ros-groovy-rosauth]
 rosbag:
   _is_ros: true
   osx:
@@ -3163,6 +4003,21 @@ rosgraph_msgs:
     quantal:
       apt:
         packages: [ros-groovy-rosgraph-msgs]
+rosjs:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/rosjs]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-rosjs]
+    precise:
+      apt:
+        packages: [ros-groovy-rosjs]
+    quantal:
+      apt:
+        packages: [ros-groovy-rosjs]
 roslang:
   _is_ros: true
   osx:
@@ -4123,6 +4978,21 @@ spacenav_node:
     quantal:
       apt:
         packages: [ros-groovy-spacenav-node]
+sql_database:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/sql_database]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-sql-database]
+    precise:
+      apt:
+        packages: [ros-groovy-sql-database]
+    quantal:
+      apt:
+        packages: [ros-groovy-sql-database]
 srdf:
   _is_ros: true
   osx:
@@ -4318,6 +5188,66 @@ trajectory_msgs:
     quantal:
       apt:
         packages: [ros-groovy-trajectory-msgs]
+turtle_concert:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/rocon_tutorials]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-turtle-concert]
+    precise:
+      apt:
+        packages: [ros-groovy-turtle-concert]
+    quantal:
+      apt:
+        packages: [ros-groovy-turtle-concert]
+turtle_race_concert:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/rocon_tutorials]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-turtle-race-concert]
+    precise:
+      apt:
+        packages: [ros-groovy-turtle-race-concert]
+    quantal:
+      apt:
+        packages: [ros-groovy-turtle-race-concert]
+turtle_race_controllers:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/rocon_tutorials]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-turtle-race-controllers]
+    precise:
+      apt:
+        packages: [ros-groovy-turtle-race-controllers]
+    quantal:
+      apt:
+        packages: [ros-groovy-turtle-race-controllers]
+turtle_stroll:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/rocon_tutorials]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-turtle-stroll]
+    precise:
+      apt:
+        packages: [ros-groovy-turtle-stroll]
+    quantal:
+      apt:
+        packages: [ros-groovy-turtle-stroll]
 turtlesim:
   _is_ros: true
   osx:
@@ -4528,6 +5458,51 @@ xmlrpcpp:
     quantal:
       apt:
         packages: [ros-groovy-xmlrpcpp]
+yocs_controllers:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/yujin_ocs]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-yocs-controllers]
+    precise:
+      apt:
+        packages: [ros-groovy-yocs-controllers]
+    quantal:
+      apt:
+        packages: [ros-groovy-yocs-controllers]
+yocs_velocity_smoother:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/yujin_ocs]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-yocs-velocity-smoother]
+    precise:
+      apt:
+        packages: [ros-groovy-yocs-velocity-smoother]
+    quantal:
+      apt:
+        packages: [ros-groovy-yocs-velocity-smoother]
+yujin_ocs:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/groovy/yujin_ocs]
+  ubuntu:
+    oneiric:
+      apt:
+        packages: [ros-groovy-yujin-ocs]
+    precise:
+      apt:
+        packages: [ros-groovy-yujin-ocs]
+    quantal:
+      apt:
+        packages: [ros-groovy-yujin-ocs]
 zeroconf_avahi:
   _is_ros: true
   osx:

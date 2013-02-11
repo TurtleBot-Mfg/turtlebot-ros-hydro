@@ -268,21 +268,6 @@ genpy:
     precise:
       apt:
         packages: [ros-fuerte-genpy]
-image_transport_plugins:
-  _is_ros: true
-  osx:
-    homebrew:
-      packages: [ros/fuerte/image_transport_plugins]
-  ubuntu:
-    lucid:
-      apt:
-        packages: [ros-fuerte-image-transport-plugins]
-    oneiric:
-      apt:
-        packages: [ros-fuerte-image-transport-plugins]
-    precise:
-      apt:
-        packages: [ros-fuerte-image-transport-plugins]
 langs:
   _is_ros: true
   osx:
@@ -433,6 +418,21 @@ object_recognition_reconstruction:
     precise:
       apt:
         packages: [ros-fuerte-object-recognition-reconstruction]
+object_recognition_renderer:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/fuerte/object_recognition_renderer]
+  ubuntu:
+    lucid:
+      apt:
+        packages: [ros-fuerte-object-recognition-renderer]
+    oneiric:
+      apt:
+        packages: [ros-fuerte-object-recognition-renderer]
+    precise:
+      apt:
+        packages: [ros-fuerte-object-recognition-renderer]
 object_recognition_ros:
   _is_ros: true
   osx:
@@ -448,6 +448,21 @@ object_recognition_ros:
     precise:
       apt:
         packages: [ros-fuerte-object-recognition-ros]
+object_recognition_tabletop:
+  _is_ros: true
+  osx:
+    homebrew:
+      packages: [ros/fuerte/object_recognition_tabletop]
+  ubuntu:
+    lucid:
+      apt:
+        packages: [ros-fuerte-object-recognition-tabletop]
+    oneiric:
+      apt:
+        packages: [ros-fuerte-object-recognition-tabletop]
+    precise:
+      apt:
+        packages: [ros-fuerte-object-recognition-tabletop]
 object_recognition_tod:
   _is_ros: true
   osx:

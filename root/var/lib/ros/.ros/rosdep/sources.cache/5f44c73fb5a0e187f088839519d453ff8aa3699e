@@ -409,7 +409,7 @@ uuid:
   osx:
     homebrew:
       options: [--universal]
-      packages: [ossp-uuid]
+      packages: [uuid]
 wxpython:
   osx:
     homebrew:

@@ -13,6 +13,11 @@ case "$1" in
 	fi
         if getent passwd ros >/dev/null; then
             setuidgid ros env ROS_HOME=/var/lib/ros/.ros rosdep update
+            if ! [ -e "/etc/skel/.ros" ]; then
+                mkdir -p /etc/skel/.ros
+            fi
+            cp -r /var/lib/ros/.ros/rosdep /etc/skel/.ros/.
+            cp /var/lib/ros/.ros/rospack_cache /etc/skel/.ros/.
         fi
 
         ;;

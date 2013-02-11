@@ -1,4 +1,5 @@
 alsa-oss: {ubuntu: alsa-oss}
+alsa-utils: {ubuntu: alsa-utils}
 ant:
   arch: apache-ant
   debian: ant
@@ -126,9 +127,9 @@ checkinstall:
   ubuntu:
     apt:
       packages: [checkinstall]
-cmake: {arch: cmake, debian: cmake, fedora: cmake, ubuntu: cmake}
+cmake: {arch: cmake, debian: cmake, fedora: cmake, gentoo: dev-util/cmake, ubuntu: cmake}
 coinor-libipopt-dev: {debian: coinor-libipopt-dev, fedora: cmake, ubuntu: coinor-libipopt-dev}
-collada-dom: {ubuntu: collada-dom-dev}
+collada-dom: {fedora: collada-dom-devel, ubuntu: collada-dom-dev}
 coreutils: {arch: coreutils, debian: coreutils, fedora: coreutils, ubuntu: coreutils}
 couchdb: {ubuntu: couchdb}
 cppunit: {arch: cppunit, debian: libcppunit-dev, fedora: cppunit-devel, freebsd: cppunit,
@@ -171,8 +172,8 @@ ffmpeg: {arch: ffmpeg, debian: ffmpeg libavcodec-dev libavformat-dev libavutil-d
 ffmpeg2theora: {debian: ffmpeg2theora, ubuntu: ffmpeg2theora}
 flex: {arch: flex, debian: flex, fedora: flex, gentoo: sys-devel/flex, macports: flex,
   ubuntu: flex}
-fltk: {arch: fltk, debian: libfltk1.1-dev, fedora: fltk-devel, freebsd: fltk, gentoo: =x11-libs/fltk-1*,
-  macports: fltk, opensuse: fltk-devel, ubuntu: libfltk1.1-dev}
+fltk: {arch: fltk, debian: libfltk1.1-dev, fedora: fltk-devel fltk-fluid, freebsd: fltk,
+  gentoo: =x11-libs/fltk-1*, macports: fltk, opensuse: fltk-devel, ubuntu: libfltk1.1-dev}
 freeimage: {arch: freeimage, debian: libfreeimage-dev, fedora: freeimage-devel, gentoo: freeimage,
   macports: freeimage, rhel: freeimage-devel, ubuntu: libfreeimage-dev}
 ftdi-eeprom: {debian: ftdi-eeprom, ubuntu: ftdi-eeprom}
@@ -210,6 +211,7 @@ gstreamer0.10-plugins-ugly:
   ubuntu: {lucid: gstreamer0.10-plugins-ugly-multiverse, maverick: gstreamer0.10-plugins-ugly-multiverse,
     natty: gstreamer0.10-plugins-ugly, oneiric: gstreamer0.10-plugins-ugly, precise: gstreamer0.10-plugins-ugly,
     quantal: gstreamer0.10-plugins-ugly}
+gstreamer0.10-pocketsphinx: {ubuntu: gstreamer0.10-pocketsphinx}
 gtest: {arch: gtest, debian: libgtest-dev, fedora: gtest-devel, freebsd: googletest,
   gentoo: dev-cpp/gtest, macports: google-test, opensuse: gtest-devel, rhel: gtest-devel,
   ubuntu: libgtest-dev}
@@ -218,7 +220,7 @@ gtk2: {arch: gtk2, debian: libgtk2.0-dev, fedora: gtk2-devel, freebsd: gtk20, ge
   macports: gtk2, opensuse: gtk2-devel, rhel: gtk2-devel, ubuntu: libgtk2.0-dev}
 gv: {debian: gv, ubuntu: gv}
 hddtemp: {arch: hddtemp, debian: hddtemp, fedora: hddtemp, ubuntu: hddtemp}
-hdf5: {debian: libhdf5-serial-dev, ubuntu: libhdf5-serial-dev}
+hdf5: {debian: libhdf5-serial-dev, gentoo: sci-libs/hdf5, ubuntu: libhdf5-serial-dev}
 hostapd: {arch: hostapd, debian: hostapd, fedora: hostapd, ubuntu: hostapd}
 imagemagick: {ubuntu: imagemagick}
 intltool: {arch: intltool, debian: intltool, fedora: intltool, freebsd: intltool,
@@ -280,6 +282,7 @@ libgstreamer-plugins-base0.10-dev: {arch: gstreamer0.10-base-plugins, debian: li
   fedora: gstreamer-plugins-base-devel, ubuntu: libgstreamer-plugins-base0.10-dev}
 libgstreamer0.10-dev: {arch: gstreamer0.10, debian: libgstreamer0.10-dev, fedora: gstreamer-devel,
   ubuntu: libgstreamer0.10-dev}
+libgtkmm: {ubuntu: libgtkmm-dev}
 libgts: {arch: gts, debian: libgts-dev, fedora: '#!/bin/bash
 
     echo "libgts is not available in the Fedora package manager - please install it
@@ -303,7 +306,7 @@ libirrlicht-dev: {ubuntu: libirrlicht-dev}
 libjpeg:
   arch: libjpeg-turbo
   debian: libjpeg8-dev
-  fedora: libjpeg-devel
+  fedora: libjpeg-turbo-devel
   gentoo: libjpeg-turbo
   macports: jpeg
   ubuntu: {lucid: libjpeg62-dev, maverick: libjpeg62-dev, natty: libjpeg62-dev, oneiric: libjpeg62-dev,
@@ -314,6 +317,7 @@ libjson0-dev: {ubuntu: libjson0-dev}
 liblapack-dev: {arch: lapack, debian: liblapack-dev, fedora: lapack-devel, ubuntu: liblapack-dev}
 libleptonica-dev: {arch: leptonica, debian: libleptonica-dev, ubuntu: libleptonica-dev}
 libmagick: {debian: libmagick++-dev, ubuntu: libmagick++-dev}
+libmarble-dev: {debian: libmarble-dev, ubuntu: libmarble-dev}
 libmotif-dev: {debian: libmotif-dev, ubuntu: libmotif-dev}
 libmp3lame-dev: {debian: libmp3lame-dev, ubuntu: libmp3lame-dev}
 libmysqlclient-dev: {debian: libmysqlclient-dev, fedora: mysql, ubuntu: libmysqlclient-dev}
@@ -340,6 +344,7 @@ libopenscenegraph:
       libopenthreads14, precise: openscenegraph libopenscenegraph-dev libopenscenegraph80
       libopenthreads-dev libopenthreads14, quantal: openscenegraph libopenscenegraph-dev
       libopenscenegraph80 libopenthreads-dev libopenthreads14}
+libosmesa6-dev: {ubuntu: libosmesa6-dev}
 libpcap:
   arch:
     pacman:
@@ -359,16 +364,24 @@ libpcap:
 libpcsclite-dev: {arch: pcsclite, debian: libpcsclite-dev, fedora: pcsc-lite-devel,
   ubuntu: libpcsclite-dev}
 libpng12-dev: {arch: libpng, debian: libpng12-dev, fedora: libpng-devel, ubuntu: libpng12-dev}
-libpoco-dev: {debian: libpoco-dev, ubuntu: libpoco-dev}
+libpoco-dev: {debian: libpoco-dev, fedora: poco-devel, ubuntu: libpoco-dev}
 libpocofoundation9: {ubuntu: libpocofoundation9}
 libpopt-dev: {debian: libpopt-dev, ubuntu: libpopt-dev}
 libpq-dev: {arch: postgresql-libs, debian: libpq-dev, ubuntu: libpq-dev}
 libqglviewer-qt4: {debian: libqglviewer-qt4-2, ubuntu: libqglviewer-qt4-2}
 libqglviewer-qt4-dev: {debian: libqglviewer-qt4-dev, ubuntu: libqglviewer-qt4-dev}
-libqhull: {arch: qhull, debian: libqhull-dev, fedora: qhull-devel, macports: qhull,
-  ubuntu: libqhull-dev}
-libqt4: {arch: qt, debian: libqt4-core, fedora: qt, freebsd: qt4-corelib, gentoo: '>=x11-libs/qt-core-4',
-  macports: qt4-mac, opensuse: libqt4, rhel: qt, ubuntu: libqt4-core}
+libqhull: {arch: qhull, debian: libqhull-dev, fedora: qhull-devel, gentoo: media-libs/qhull,
+  macports: qhull, ubuntu: libqhull-dev}
+libqt4:
+  arch: qt
+  debian: libqt4-core
+  fedora: qt
+  freebsd: qt4-corelib
+  gentoo: '>=x11-libs/qt-core-4'
+  macports: qt4-mac
+  opensuse: libqt4
+  rhel: qt
+  ubuntu: [libqt4-dbus, libqt4-network, libqt4-script, libqt4-test, libqt4-xml, libqtcore4]
 libqt4-dev: {arch: qt, debian: libqt4-dev, fedora: qt-devel, freebsd: qt4-corelib,
   gentoo: '>=x11-libs/qt-core-4', macports: qt4-mac, opensuse: libqt4-devel, rhel: qt-devel,
   ubuntu: libqt4-dev}
@@ -388,6 +401,10 @@ libqwt5-qt4-dev:
   ubuntu:
     apt:
       packages: [libqwt5-qt4-dev]
+libqwtplot3d-qt4-dev:
+  ubuntu:
+    apt:
+      packages: [libqwtplot3d-qt4-dev]
 libraw1394-dev:
   arch:
     pacman:
@@ -443,7 +460,11 @@ libunittest++:
   ubuntu:
     apt:
       packages: [libunittest++-dev]
-libusb-1.0-dev: {arch: libusb, debian: libusb-1.0-0-dev, fedora: libusb1-devel, ubuntu: libusb-1.0-0-dev}
+libusb-1.0-dev:
+  arch: libusb
+  debian: libusb-1.0-0-dev
+  fedora: {beefy: libusb1-devel, spherical: libusbx-devel}
+  ubuntu: libusb-1.0-0-dev
 libusb-dev: {arch: libusb-compat, debian: libusb-dev, fedora: libusb-devel, ubuntu: libusb-dev}
 libuvc:
   arch:
@@ -453,6 +474,7 @@ libvtk:
   arch: vtk
   debian: libvtk5-dev
   fedora: vtk-devel
+  gentoo: sci-libs/vtk
   macports: vtk-devel
   ubuntu: {lucid: libvtk5-dev, maverick: libvtk5-dev, natty: libvtk5-dev, oneiric: libvtk5-dev
       default-jre-headless openjdk-6-jdk, precise: libvtk5-dev, quantal: libvtk5-dev}
@@ -550,10 +572,10 @@ pkg-config: {arch: pkg-config, cygwin: pkg-config, debian: pkg-config, fedora: p
   freebsd: pkg-config, gentoo: dev-util/pkgconfig, macports: pkgconfig, opensuse: pkg-config,
   rhel: pkgconfig, ubuntu: pkg-config}
 protobuf: {arch: protobuf, debian: libprotobuf7, fedora: protobuf, ubuntu: libprotobuf7}
-protobuf-dev: {ubuntu: libprotobuf-dev protobuf-compiler libprotoc-dev}
+protobuf-dev: {fedora: protobuf-devel protobuf-compiler, ubuntu: libprotobuf-dev protobuf-compiler
+    libprotoc-dev}
 ps-engine: {arch: primesense-sensor, fedora: openni-primesense, ubuntu: ps-engine}
 pyqt4-dev-tools: {ubuntu: pyqt4-dev-tools}
-python-pyside: {debian: python-pyside, ubuntu: python-pyside}
 qhull-bin: {debian: qhull-bin, ubuntu: qhull-bin}
 qt4-dev-tools: {debian: qt4-dev-tools, fedora: qt-devel, opensuse: libqt4-devel-doc,
   ubuntu: qt4-dev-tools}
@@ -567,8 +589,8 @@ ruby:
   fedora: ruby ruby-devel openssl-devel rubygems
   ubuntu: {lucid: ruby1.8-dev libopenssl-ruby1.8 rubygems1.8, maverick: ruby1.8-dev
       libruby1.8 rubygems1.8, natty: ruby1.8-dev libruby1.8 rubygems1.8, oneiric: ruby1.8-dev
-      libruby1.8 rubygems1.8, precise: ruby1.8-dev libruby1.8 rubygems1.8, quantal: ruby1.8-dev
-      libruby1.8 rubygems1.8}
+      libruby1.8 rubygems1.8, precise: ruby1.8-dev libruby1.8 rubygems1.8, quantal: ruby1.9.1-dev
+      libruby1.9.1 rubygems}
 sbcl: {arch: sbcl, debian: sbcl, fedora: sbcl, ubuntu: sbcl}
 scons: {arch: scons, debian: scons, fedora: scons, freebsd: scons, gentoo: dev-util/scons,
   macports: scons, opensuse: scons, ubuntu: scons}
@@ -613,12 +635,27 @@ tar: {arch: libtar, debian: libtar-dev, fedora: libtar-devel, freebsd: libtar, g
   macports: libtar, opensuse: libtar-devel, rhel: libtar-devel, ubuntu: libtar-dev}
 tbb: {arch: intel-tbb, debian: libtbb-dev, fedora: tbb-devel, gentoo: tbb, ubuntu: libtbb-dev}
 tcsh: {arch: tcsh, debian: tcsh, fedora: tcsh, ubuntu: tcsh}
-texlive-fonts-extra: {debian: texlive-fonts-extra, ubuntu: texlive-fonts-extra}
-texlive-fonts-recommended: {debian: texlive-fonts-recommended, ubuntu: texlive-fonts-recommended}
-texlive-latex-base: {arch: texlive-base, debian: texlive-latex-base, fedora: texlive-latex,
-  ubuntu: texlive-latex-base}
-texlive-latex-extra: {debian: texlive-latex-extra, ubuntu: texlive-latex-extra}
-texlive-latex-recommended: {debian: texlive-latex-recommended, ubuntu: texlive-latex-recommended}
+texlive-fonts-extra:
+  debian: texlive-fonts-extra
+  fedora: {spherical: texlive-bbm texlive-bbm-macros}
+  ubuntu: texlive-fonts-extra
+texlive-fonts-recommended:
+  debian: texlive-fonts-recommended
+  fedora: {spherical: texlive-times texlive-helvetic}
+  ubuntu: texlive-fonts-recommended
+texlive-latex-base:
+  arch: texlive-base
+  debian: texlive-latex-base
+  fedora: {spherical: texlive-latex texlive-parskip}
+  ubuntu: texlive-latex-base
+texlive-latex-extra:
+  debian: texlive-latex-extra
+  fedora: {spherical: texlive-titlesec texlive-wrapfig texlive-multirow texlive-fancybox}
+  ubuntu: texlive-latex-extra
+texlive-latex-recommended:
+  debian: texlive-latex-recommended
+  fedora: {spherical: texlive-framed texlive-threeparttable texlive-ec texlive-mdwtools}
+  ubuntu: texlive-latex-recommended
 tinyxml: {arch: tinyxml, debian: libtinyxml-dev, fedora: tinyxml-devel, gentoo: tinyxml,
   rhel: tinyxml-devel, ubuntu: libtinyxml-dev}
 tix: {debian: tix, ubuntu: tix}
