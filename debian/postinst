@@ -5,7 +5,7 @@ case "$1" in
         
         if [ ! -e /etc/ros ]
         then
-            ln -s /etc/ros-groovy /etc/ros
+            ln -s /etc/ros-hydro /etc/ros
         fi
         if [ -e "/var/lib/ros" ]; then
 	    chown -R ros:ros /var/lib/ros

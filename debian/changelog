@@ -1,58 +1,64 @@
-turtlebot-ros-groovy (0.0.5) precise; urgency=low
+turtlebot-ros-hydro (0.0.6) precise; urgency=low
+
+  * Fixed copy error
+
+ -- I Heart Engineering <code@iheartengineering.com>  Mon, 11 Feb 2013 06:24:59 -0500
+
+turtlebot-ros-hydro (0.0.5) precise; urgency=low
 
   * Added ~/.ros/rosdep to /etc/skel && rebuilt cache
 
  -- I Heart Engineering <code@iheartengineering.com>  Mon, 11 Feb 2013 01:15:57 -0500
 
-turtlebot-ros-groovy (0.0.4) precise; urgency=low
+turtlebot-ros-hydro (0.0.4) precise; urgency=low
 
   * fixing rosdep update for installs with internet connectivity
 
  -- I Heart Engineering <code@iheartengineering.com>  Wed, 09 Jan 2013 11:00:10 -0500
 
-turtlebot-ros-groovy (0.0.3ubuntu2) precise; urgency=low
+turtlebot-ros-hydro (0.0.3ubuntu2) precise; urgency=low
 
   * 
 
  -- I Heart Engineering <code@iheartengineering.com>  Thu, 03 Jan 2013 06:48:26 -0500
 
-turtlebot-ros-groovy (0.0.3ubuntu1) precise; urgency=low
+turtlebot-ros-hydro (0.0.3ubuntu1) precise; urgency=low
 
   * Set ROS_HOME for rosdep update with internet access
 
  -- I Heart Engineering <code@iheartengineering.com>  Thu, 03 Jan 2013 06:03:44 -0500
 
-turtlebot-ros-groovy (0.0.3) precise; urgency=low
+turtlebot-ros-hydro (0.0.3) precise; urgency=low
 
   * Init rosdep without internet!
 
  -- I Heart Engineering <code@iheartengineering.com>  Thu, 03 Jan 2013 05:30:53 -0500
 
-turtlebot-ros-groovy (0.0.2ubuntu3) precise; urgency=low
+turtlebot-ros-hydro (0.0.2ubuntu3) precise; urgency=low
 
   * partially fixing rosdep update if network is avail when package installed
 
  -- I Heart Engineering <code@iheartengineering.com>  Thu, 03 Jan 2013 04:23:06 -0500
 
-turtlebot-ros-groovy (0.0.2ubuntu2) precise; urgency=low
+turtlebot-ros-hydro (0.0.2ubuntu2) precise; urgency=low
 
   * update rosdep for user ros
 
  -- I Heart Engineering <code@iheartengineering.com>  Wed, 02 Jan 2013 22:14:02 -0500
 
-turtlebot-ros-groovy (0.0.2ubuntu1) precise; urgency=low
+turtlebot-ros-hydro (0.0.2ubuntu1) precise; urgency=low
 
   * Fixed launch file
 
  -- I Heart Engineering <code@iheartengineering.com>  Wed, 02 Jan 2013 09:51:44 -0500
 
-turtlebot-ros-groovy (0.0.2) precise; urgency=low
+turtlebot-ros-hydro (0.0.2) precise; urgency=low
 
   * UNRELEASED
 
  -- I Heart Engineering <code@iheartengineering.com>  Wed, 02 Jan 2013 02:37:55 -0500
 
-turtlebot-ros-groovy (0.0.1) UNRELEASED; urgency=low
+turtlebot-ros-hydro (0.0.1) UNRELEASED; urgency=low
 
   * init
 

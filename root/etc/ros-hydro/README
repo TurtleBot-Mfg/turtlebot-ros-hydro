@@ -2,7 +2,7 @@ This directory contains the ROS configuration for your robot.
 
 By default the /etc/ros-distro directory is symlinked to /etc/ros,
 if you want to prevent changes from being overwritten when updates
-are released, remove the symlink and copy /etc/ros-groovy to /etc/ros.
+are released, remove the symlink and copy /etc/ros-hydro to /etc/ros.
 
 Files and their uses are listed below:
 
