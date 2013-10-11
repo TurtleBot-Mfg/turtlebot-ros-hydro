@@ -1,3 +1,9 @@
+turtlebot-ros-hydro (0.0.7) precise; urgency=low
+
+  * Maintainer updated and patches for Hydro
+
+ -- NE Automation <code@neautomation.com>  Thu, 10 Oct 2013 14:09:28 -0400
+
 turtlebot-ros-hydro (0.0.6) precise; urgency=low
 
   * Fixed copy error
