@@ -1,3 +1,9 @@
+turtlebot-ros-hydro (0.0.8) precise; urgency=low
+
+  * Update deps for hydro
+
+ -- NE Automation <code@neautomation.com>  Fri, 11 Oct 2013 00:09:47 -0400
+
 turtlebot-ros-hydro (0.0.7) precise; urgency=low
 
   * Maintainer updated and patches for Hydro
