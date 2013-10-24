@@ -1,3 +1,9 @@
+turtlebot-ros-hydro (0.0.11) precise; urgency=low
+
+  * Adding more deps
+
+ -- NE Automation <code@neautomation.com>  Mon, 14 Oct 2013 23:03:04 -0400
+
 turtlebot-ros-hydro (0.0.10) precise; urgency=low
 
   * libftdi != libftdi1
